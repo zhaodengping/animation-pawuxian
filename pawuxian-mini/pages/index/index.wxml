@@ -1,0 +1,5 @@
+<button class="shop" bindtap="addToCart">加入购物车</button>
+<view class="cart">购物车数量{{count}}</view>
+<view class="ballY"  style="{{ ball ? 'transition: transform 0.5s ease-in; transform: translate(0, ' + offsetY + 'px); top: ' + ballY + 'px;' : '' }}">
+    <view class="ballX" style="{{ ball ? 'transition: transform 0.5s linear; transform: translate( ' + offsetX + 'px,0); left: ' + ballX + 'px; opacity: 1;' : '' }}"></view>
+</view>
